@@ -58,6 +58,7 @@ hl.common = {
     ErrorMsg = {fg = c.red, fmt = "bold"},
     WarningMsg = {fg = c.yellow, fmt = "bold"},
     MoreMsg = {fg = c.blue, fmt = "bold"},
+    CurSearch = {fg = c.bg0, bg = c.orange},
     IncSearch = {fg = c.bg0, bg = c.orange},
     Search = {fg = c.bg0, bg = c.bg_yellow},
     Substitute = {fg = c.bg0, bg = c.green},
@@ -500,9 +501,9 @@ hl.plugins.indent_blankline = {
     IndentBlanklineIndent5 = colors.Purple,
     IndentBlanklineIndent6 = colors.Red,
     IndentBlanklineChar = { fg = c.bg1, gui = "nocombine" },
-    IndentBlanklineContext = { fg = c.orange, bg = c.bg3, bold = true },
-    IndentBlanklineContextChar = { fg = c.bg1, gui = "nocombine" },
-    IndentBlanklineContextStart = { sp = c.bg1, gui = "underline" },
+    IndentBlanklineContext = { fg = c.orange, bg = c.grey, bold = true },
+    IndentBlanklineContextChar = { fg = c.grey, gui = "nocombine" },
+    IndentBlanklineContextStart = { sp = c.grey, gui = "underline" },
     IndentBlanklineContextSpaceChar = { gui = "nocombine" },
 }
 
